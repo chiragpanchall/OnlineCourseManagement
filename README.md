@@ -5,9 +5,9 @@ Plus having extra features like Student can raise query and can also view tutors
 And many things are there to keep in mind while developing the site..
 
 ** Tools and Technology **
-JSP
-Bootstrap
-Netbeans
+* JSP
+* Bootstrap
+* Netbeans
 
 
 ** Having following panels : **
