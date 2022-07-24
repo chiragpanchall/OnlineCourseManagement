@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+    </head>
+
+    
+    
+    <style>
+        .navbar-brand {
+            font-family: 'Lobster',cursive;
+            font-size: 2.5vw;
+        }
+        .footer-text{
+            /*text-align: right;*/
+            font-size: 1.5vw;
+            padding-top: 22px;
+        }
+        .header-menu {
+            font-size: 1.5vw;
+        }
+        .courses {
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+            font-weight: 700;
+        }
+    </style>
+    <body>
+
+        <!-- Navigation bar  -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <a class="navbar-brand" href="#">Upgradify</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto header-menu">
+                    <li class="nav-item active">
+                        <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#course">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#tutors">Tutors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#footer">About us</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <ul class="navbar-nav mr-auto header-menu">
+                        <li class="nav-item">
+                            <a class="nav-link" href="UI/General/login.jsp">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="UI/General/signup.jsp">Signup</a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </nav>
+        <!--  Homepage  -->
+
+        <div class="container-fluid p-3" id="tutors">
+            <div class="jumbotron col">
+                <div class="container">
+                    <h1 class="display-4">Hey Dude!</h1>
+                    <p class="lead">Let's learn with Upgradify and upskill your skills</p>
+                </div>
+                <img class="img-fluid" src="https://img-c.udemycdn.com/notices/web_banner/slide_1_image_udlite/db24b94e-d190-4d5a-b1dd-958f702cc8f5.jpg" alt="New York">
+            </div>
+        </div>
+
+        <div class="jumbotron" id="course">
+            <p class="display-4 p-2">Offerred courses !</p>
+            <div class="row">
+                <div class="col-md-3">
+                    <p class="courses">Machine Learning </p>
+                </div>
+                <div class="col-md-3">
+                    <p class="courses">Data Science </p>
+                </div>
+                <div class="col-md-3">
+                    <p class="courses">Artificial Learning </p>
+                </div>
+                <div class="col-md-3">
+                    <p class="courses">Data Visultization </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <p class="courses">Python </p>
+                </div>
+                <div class="col-md-3">
+                    <p class="courses">Java </p>
+                </div>
+                <div class="col-md-3">
+                    <p class="courses">Tablue</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="courses">React </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <p class="courses">MERN Stack</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="courses">MEAN Stack </p>
+                </div>
+                <div class="col-md-3">
+                    <p class="courses">Javascript</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="courses">ASP.NET</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid p-2">
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="container">
+                            <h1 class="display-4" style="text-align:center;margin:auto;width: 50%;padding-top: 100px;"><b>Industry qualified Certificate</b></h1>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="container">
+                            <img class="img-fluid" height="200px" src="https://marketplace.canva.com/EAE1GPK24WA/1/0/1600w/canva-certificaly-certificate-HC79vC8evwY.jpg" alt="New York">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--    -->
+
+
+        <!-- footer -->
+        <footer id="footer">
+            <div class="container-fluid bg-light ">
+                <div class="row p-4">
+                    <div class="col">  
+                        <p class="navbar-brand"> Upgradify</p>
+                    </div>
+                    <div class="col-md-auto footer-text">
+                        <p>About us</p>
+                    </div>
+                    <div class="col-md-auto footer-text">      
+                        <p>Get the App</p>
+                    </div>
+                    <div class="col-md-auto footer-text">
+                        <p>Contact us</p>
+                    </div>
+                </div>
+            </div>
+        </footer>  
+    </body>
+</html>
