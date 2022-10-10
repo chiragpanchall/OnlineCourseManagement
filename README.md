@@ -1,4 +1,4 @@
-# OnlineCourseManagement
+# Upgradify - OnlineCourseManagement
 
 Online Course management System is created with JSP technology here we are tried to implement the websites like udemy.
 Plus having extra features like Student can raise query and can also view tutors is online or not 
